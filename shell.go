@@ -8,7 +8,7 @@ import (
 )
 
 func Show() string {
-	fmt.Println("shell::Show()")
+	fmt.Println("shell::Show() v2.0 ")
 
 	return fmt.Sprintf("c1 version: %s, c2 version: %s", c1.Version(), c2.Version())
 }
